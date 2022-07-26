@@ -60,7 +60,7 @@ const Project = () => {
           <ProjectCard
             img="blog.jpeg"
             name="Blog"
-            deploy={"https://askabir.netlify.app/"}
+            deploy={"https://askabir.in"}
             description="A personal blogging site for NSS Regional Director Mr. A S Kabir. It is developed in ReactJS and its backend in Google Firebase."
           />
         </div>
