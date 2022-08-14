@@ -43,7 +43,7 @@ const Experience = () => {
             date="March 2022 - June 2022"
             org="Dygnify Ventures Pvt. Limited"
             link={
-              "https://drive.google.com/file/d/1eRz-f8qQj2LnKesekdlrcPeT059daLbw/view?usp=sharing"
+              "https://drive.google.com/file/d/175kDRNhBt9V9lBCc68dKG4kaqCjOGkFl/view?usp=sharing"
             }
           />
           <ExperienceCard
