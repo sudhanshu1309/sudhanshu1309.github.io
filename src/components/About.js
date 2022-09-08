@@ -9,10 +9,10 @@ const About = () => {
       >
         <h3 className="text-4xl md:text-6xl py-4">About Me</h3>
         <img
-          src="./assets/me.jpeg"
+          src="./assets/sudhanshu.png"
           alt="Sudhanshu Tripathi"
           className="max-w-xs md:max-w-sm px-6 py-6 my-6"
-          style={{ borderRadius: "50%" }}
+          style={{ borderRadius: "8%" }}
         />
         <p className="max-w-xs md:max-w-3xl text-center px-4 py-4 text-lg md:text-2xl">
           Hi, I am Sudhanshu Tripathi, an Electronics and Communication
