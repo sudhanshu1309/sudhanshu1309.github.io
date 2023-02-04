@@ -14,7 +14,7 @@ const Home = () => {
         </div>
         <div className="container mx-auto px-12 py-20">
           <a
-            href="https://drive.google.com/file/d/17dww4sTpIdLZLmE0H9K1VOQYq9xr37gI/view?usp=sharing"
+            href="https://drive.google.com/file/d/15m1yQue2j4ezeVT4g31s44g4aWNeMVyZ/view?usp=sharing"
             target={"_blank"}
             rel="noreferrer"
           >
