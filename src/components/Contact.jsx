@@ -25,7 +25,7 @@ const Contact = () => {
         >
           Say Hello
         </a>
-        <div className="flex md:hidden flex-row items-center justify-between gap-x-4 px-4 mx-auto mt-6">
+        <div className="flex flex-row items-center justify-between gap-x-4 px-4 mx-auto mt-6">
           <SocialLinks href="https://www.linkedin.com/in/sudhanshu1309/">
             <FiLinkedin size={24} />
           </SocialLinks>

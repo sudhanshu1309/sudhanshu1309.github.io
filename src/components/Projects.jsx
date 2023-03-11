@@ -37,7 +37,7 @@ const Projects = () => {
           >
             The blogging application is an platform to showcase the work and
             achievements of Mr. A S Kabir, the regional director for NSS
-            India.Mr. Kabir shares his experiences, expertise, and achievements
+            India. Mr. Kabir shares his experiences, expertise, and achievements
             through his blog posts, providing valuable insights and advice to
             his readers. The website has a user-friendly interface that allows
             users to easily navigate through the blog posts and access the
