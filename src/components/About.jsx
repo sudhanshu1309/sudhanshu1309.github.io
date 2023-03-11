@@ -23,18 +23,18 @@ const About = () => {
           {/*  */}
           <div className="flex flex-col gap-y-4 text-lg mt-5">
             <p>
-              Hello! My name is Sudhanshu Tripathi and I enjoy creating things
-              that live on the internet. My interest in web development started
-              back in 2012 when I decided to try editing custom Tumblr themes —
-              turns out hacking together a custom reblog button taught me a lot
-              about HTML & CSS!
+              Welcome to my portfolio! My name is Sudhanshu Tripathi, and I am a
+              web developer pursuing Bachelor of Technology in Electronics and
+              Communication Engineering from IIIT Naya Raipur. I enjoy creating
+              dynamic and engaging websites and exploring new technologies to
+              expand my skill set.
             </p>
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at an
-              advertising agency, a start-up, a huge corporation, and a
-              student-led design studio. My main focus these days is building
-              accessible, inclusive products and digital experiences at
-              Upstatement for a variety of clients.
+              In addition to my expertise in web development, I am an active
+              contributor to open-source projects. I believe in giving back to
+              the community and collaborating with others to create innovative
+              solutions. I am proud to have contributed to several projects that
+              have helped make a difference in the world of technology.
             </p>
             <p>Here are a few technologies I’ve been working with recently:</p>
           </div>
@@ -45,6 +45,7 @@ const About = () => {
           </div>
         </div>
         <img
+          className="md:mt-12"
           src={sudhanshuImg}
           alt="Sudhanshu Tripathi"
           style={{
