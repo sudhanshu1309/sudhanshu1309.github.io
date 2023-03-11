@@ -15,7 +15,9 @@ const Home = () => {
         </p>
         <p className="text-[#8892b0] text-lg md:text-xl">
           I’m a software engineer specializing in building exceptional digital
-          experiences.
+          experiences. My focus is on creating outstanding digital experiences
+          that engage users and exceed expectations. I have a knack for building
+          intuitive interfaces that provide a seamless user experience.
         </p>
         <a
           className="text-sm mt-12 rounded-md border-[#64ffda] border py-4 px-7 text-center text-[#64ffda] w-fit"
