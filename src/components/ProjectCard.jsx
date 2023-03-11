@@ -19,7 +19,7 @@ const ProjectCard = ({ title, children, bg, gh, url }) => {
             borderRadius: "8px",
           }}
         ></div>
-        <div className="max-w-xs flex flex-col gap-y-5 py-8 px-6 bg-[#112240] opacity-80 rounded-lg hover:opacity-0 transition duration-500">
+        <div className="max-w-xs flex flex-col gap-y-5 py-8 px-6 bg-[#112240] opacity-80 rounded-lg hover:opacity-0 transition duration-500 h-full">
           <h1 className="text-[#64ffda] text-2xl font-normal">{title}</h1>
           <p className="text-sm font-light">{children}</p>
           <div className="flex flex-row justify-start items-center gap-x-4">

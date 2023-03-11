@@ -1,7 +1,3 @@
-/**
- * max width 6xl
- */
-
 const Home = () => {
   return (
     <>
