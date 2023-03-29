@@ -17,7 +17,7 @@ const Home = () => {
         </p>
         <a
           className="text-sm mt-12 rounded-md border-[#64ffda] border py-4 px-7 text-center text-[#64ffda] w-fit"
-          href="https://drive.google.com/file/d/1qycdbNY3v-G3agOE4FBgJU3EBCYV5egH/view?usp=sharing"
+          href="https://drive.google.com/file/d/1FT3wB6fyGtOsXw70mkRLoHeh5I-lZkA4/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >
