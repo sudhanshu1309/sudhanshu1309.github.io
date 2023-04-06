@@ -1,13 +1,43 @@
+import { useEffect, useState } from "react";
+
 const Home = () => {
+  const name = "Sudhanshu Tripathi";
+  const description = "I build things for the web.";
+
+  const [text, setText] = useState("");
+  const [desc, setDesc] = useState("");
+
+  const dynamicName = async () => {
+    for (let i = 0; i < name.length; i++) {
+      setTimeout(() => {
+        setText((prev) => prev + name[i]);
+      }, 150 * i);
+    }
+  };
+
+  const dynamicDesc = () => {
+    for (let i = 0; i < description.length; i++) {
+      setTimeout(() => {
+        setDesc((prev) => prev + description[i]);
+      }, 150 * i);
+    }
+  };
+
+  useEffect(() => {
+    dynamicName();
+    setTimeout(() => {
+      dynamicDesc();
+    }, 150 * name.length);
+  }, []);
+
   return (
     <>
       <div className="flex flex-col justify-center gap-y-4 mx-auto px-4 max-w-6xl h-screen">
         <h2 className="text-[#64ffda] text-base">Hi! My name is</h2>
-        <h1 className="text-[#ccd6f6] text-3xl md:text-6xl">
-          Sudhanshu Tripathi
-        </h1>
+        <h1 className="text-[#ccd6f6] text-3xl md:text-6xl">{text}</h1>
         <p className="text-[#8892b0] text-3xl md:text-6xl">
-          I build things for the web.
+          {/* I build things for the web. */}
+          {desc}
         </p>
         <p className="text-[#8892b0] text-lg md:text-xl">
           I’m a software engineer specializing in building exceptional digital
