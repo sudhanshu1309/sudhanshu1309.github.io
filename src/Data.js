@@ -15,6 +15,9 @@ export const techs = [
     name: "React",
   },
   {
+    name: "NextJS",
+  },
+  {
     name: "NodeJS",
   },
   {
@@ -24,6 +27,9 @@ export const techs = [
     name: "MongoDB",
   },
   {
+    name: "MySQL",
+  },
+  {
     name: "Tailwind",
   },
   {
@@ -31,8 +37,5 @@ export const techs = [
   },
   {
     name: "Firebase",
-  },
-  {
-    name: "NextJS",
   },
 ];

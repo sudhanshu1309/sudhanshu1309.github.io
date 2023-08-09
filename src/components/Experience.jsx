@@ -32,12 +32,11 @@ export default Experience;
 
 const pos = [
   {
-    name: "SAC IIITNR",
-    duration: "July 2022 - Present",
-    url: "https://sac.iiitnr.ac.in/team",
-    line1: `Developed the SAC website with a focus on modern, performant, and maintainable code using the NextJS framework`,
-    line2: `Collaborated with junior team and design team to deliver a modern and high-performing website`,
-    line3: `Deployed on a local Linux-based server and mapped to a public IP address`,
+    name: "CFT Labs",
+    duration: "May 2023 - June 2023",
+    url: "https://cftlabs.org/",
+    line1: `Developed a versatile React-based admin panel application catering to diverse clients.`,
+    line2: `Collaborated with a wide range of clients to deliver customized solutions tailored to their specific needs and requirements.`,
   },
   {
     name: "Dygnify Ventures Pvt Limited",
